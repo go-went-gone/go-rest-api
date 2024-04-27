@@ -13,7 +13,7 @@ import (
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 
-//Connection mongoDB with helper class
+// Connection mongoDB with helper class
 var collection = helper.ConnectDB()
 
 func getBooks(w http.ResponseWriter, r *http.Request) {
